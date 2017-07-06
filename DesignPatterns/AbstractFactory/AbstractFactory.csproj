@@ -43,15 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Camera.cs" />
-    <Compile Include="EvCamera.cs" />
-    <Compile Include="EvDayFactory.cs" />
-    <Compile Include="EvLens.cs" />
-    <Compile Include="HoCamera.cs" />
-    <Compile Include="HoDayFactory.cs" />
-    <Compile Include="HoLens.cs" />
-    <Compile Include="IMakeCamera.cs" />
-    <Compile Include="ITake.cs" />
+    <Compile Include="Cameras\Camera.cs" />
+    <Compile Include="Cameras\EvCamera.cs" />
+    <Compile Include="Factories\EvDayFactory.cs" />
+    <Compile Include="Lens\EvLens.cs" />
+    <Compile Include="Cameras\HoCamera.cs" />
+    <Compile Include="Factories\HoDayFactory.cs" />
+    <Compile Include="Lens\HoLens.cs" />
+    <Compile Include="Factories\IMakeCamera.cs" />
+    <Compile Include="Lens\ITake.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tester.cs" />
